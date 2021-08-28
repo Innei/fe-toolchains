@@ -1,4 +1,4 @@
-# @innei-util/eslint-config-ts
+# @innei-util/eslint-ts
 
 ## 简介
 
@@ -9,7 +9,7 @@
 安装依赖
 
 ```shell
-yarn add -D @innei-util/eslint-config-ts
+yarn add -D @innei-util/eslint-ts
 ```
 
 在 `package.json` 中配置
@@ -17,7 +17,7 @@ yarn add -D @innei-util/eslint-config-ts
 ```json
 {
   "eslintConfig": {
-    "extends": ["@innei-util/eslint-config-ts"]
+    "extends": ["@innei-util/eslint-ts"]
   }
 }
 ```
