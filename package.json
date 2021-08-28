@@ -34,7 +34,7 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
+    "@commitlint/cli": "12.1.4",
     "@innei-util/eslint-ts": "workspace:*",
     "@innei-util/prettier": "workspace:*",
     "husky": "7.0.2",
