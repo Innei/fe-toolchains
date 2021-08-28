@@ -7,12 +7,12 @@ importers:
       '@commitlint/cli': ^12.1.4
       '@innei-util/eslint-ts': workspace:*
       '@innei-util/prettier': workspace:*
-      husky: ^7.0.2
-      lint-staged: ^11.1.2
-      prettier: ^2.3.2
-      rimraf: ^3.0.2
-      simple-git-hooks: ^2.6.1
-      typescript: ^4.4.2
+      husky: 7.0.2
+      lint-staged: 11.1.2
+      prettier: 2.3.2
+      rimraf: 3.0.2
+      simple-git-hooks: 2.6.1
+      typescript: 4.4.2
     devDependencies:
       '@commitlint/cli': 12.1.4
       '@innei-util/eslint-ts': link:packages/eslint-config-ts
@@ -23,14 +23,6 @@ importers:
       rimraf: 3.0.2
       simple-git-hooks: 2.6.1
       typescript: 4.4.2
-
-  packages/eslint-config-react-ts:
-    specifiers:
-      '@innei-util/eslint-config-ts': ^0.2.0
-      eslint-plugin-react-hooks: ^4.2.0
-    dependencies:
-      '@innei-util/eslint-config-ts': link:../eslint-config-ts
-      eslint-plugin-react-hooks: 4.2.0
 
   packages/eslint-config-ts:
     specifiers:
@@ -750,13 +742,6 @@ packages:
       eslint: '>=7.0.0'
     dependencies:
       eslint: 7.32.0
-    dev: false
-
-  /eslint-plugin-react-hooks/4.2.0:
-    resolution: {integrity: sha512-623WEiZJqxR7VdxFCKLI6d6LLpwJkGPYKODnkH3D7WpOG5KM8yWueBd8TLsNAetEJNF5iJmolaAKO3F8yzyVBQ==}
-    engines: {node: '>=10'}
-    peerDependencies:
-      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
     dev: false
 
   /eslint-scope/5.1.1:
