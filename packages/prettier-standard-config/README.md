@@ -1,4 +1,4 @@
-# @innei-util/prettier-standard-config
+# @innei-util/prettier
 
 ## 简介
 
@@ -9,13 +9,13 @@
 安装依赖
 
 ```shell
-yarn add -D @innei-util/prettier-standard-config
+yarn add -D @innei-util/prettier
 ```
 
 在 `package.json` 中配置
 
 ```json
 {
-  "prettier": "@innei-util/prettier-standard-config"
+  "prettier": "@innei-util/prettier"
 }
 ```

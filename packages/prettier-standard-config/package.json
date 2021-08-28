@@ -1,6 +1,6 @@
 {
-  "name": "@innei-util/prettier-standard-config",
-  "version": "0.1.1",
+  "name": "@innei-util/prettier",
+  "version": "0.1.2",
   "main": ".prettierrc.js",
   "license": "MIT",
   "publishConfig": {
