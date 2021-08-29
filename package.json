@@ -10,11 +10,6 @@
     "pre-commit": "yarn lint-staged",
     "commit-msg": "yarn commitlint --edit $1"
   },
-  "commitlint": {
-    "extends": [
-      "@innei-util/commitlint-standard-config"
-    ]
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -30,18 +25,16 @@
   },
   "eslintConfig": {
     "extends": [
-      "@innei-util/eslint-ts"
+      "@innei-util/eslint-config-ts"
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@innei-util/eslint-ts": "workspace:*",
+    "@innei-util/eslint-config-ts": "workspace:*",
     "@innei-util/prettier": "workspace:*",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
     "rimraf": "^3.0.2",
-    "simple-git-hooks": "^2.6.1",
     "typescript": "^4.4.2"
   }
 }
