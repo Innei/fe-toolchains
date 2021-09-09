@@ -1,6 +1,6 @@
 {
   "name": "@innei-util/eslint-config-ts",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "main": ".eslintrc.js",
   "license": "MIT",
   "publishConfig": {
