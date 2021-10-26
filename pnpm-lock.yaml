@@ -7,7 +7,7 @@ importers:
       '@innei-util/eslint-config-ts': workspace:*
       '@innei-util/prettier': workspace:*
       husky: 7.0.4
-      lint-staged: 11.2.4
+      lint-staged: 11.2.5
       prettier: 2.4.1
       rimraf: 3.0.2
       typescript: 4.4.4
@@ -15,7 +15,7 @@ importers:
       '@innei-util/eslint-config-ts': link:packages/eslint-config-ts
       '@innei-util/prettier': link:packages/prettier-standard-config
       husky: 7.0.4
-      lint-staged: 11.2.4
+      lint-staged: 11.2.5
       prettier: 2.4.1
       rimraf: 3.0.2
       typescript: 4.4.4
@@ -1236,8 +1236,8 @@ packages:
     resolution: {integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=}
     dev: false
 
-  /lint-staged/11.2.4:
-    resolution: {integrity: sha512-aTUqcPDSV05EyKlMT4N5h7tmnevKfAxI3xZkRb+DHfmcFaoCxfxVvpqlLMCVGy3EYle9JYER2nA5zc4eNTkZVQ==}
+  /lint-staged/11.2.5:
+    resolution: {integrity: sha512-bD6FeKyRtMA3jXcNg/J0fuJmwDN8yaoTdqliFcEl8pFTHiP9NYwQCeZwBoZ8FEXx4lj/pli3oFehr86XYvMNEA==}
     hasBin: true
     dependencies:
       cli-truncate: 2.1.0
