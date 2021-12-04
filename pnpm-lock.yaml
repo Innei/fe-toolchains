@@ -8,7 +8,7 @@ importers:
       '@innei-util/prettier': workspace:*
       husky: 7.0.4
       lint-staged: 11.2.6
-      prettier: 2.4.1
+      prettier: 2.5.1
       rimraf: 3.0.2
       typescript: 4.4.4
     devDependencies:
@@ -16,7 +16,7 @@ importers:
       '@innei-util/prettier': link:packages/prettier-standard-config
       husky: 7.0.4
       lint-staged: 11.2.6
-      prettier: 2.4.1
+      prettier: 2.5.1
       rimraf: 3.0.2
       typescript: 4.4.4
 
@@ -50,7 +50,7 @@ importers:
       prettier-plugin-organize-imports: ^2.3.3
     dependencies:
       prettier-package-json: 2.6.0
-      prettier-plugin-organize-imports: 2.3.3_prettier@2.4.1+typescript@4.4.4
+      prettier-plugin-organize-imports: 2.3.3_prettier@2.5.1+typescript@4.4.4
 
 packages:
 
@@ -1531,18 +1531,18 @@ packages:
       sort-order: 1.0.1
     dev: false
 
-  /prettier-plugin-organize-imports/2.3.3_prettier@2.4.1+typescript@4.4.4:
+  /prettier-plugin-organize-imports/2.3.3_prettier@2.5.1+typescript@4.4.4:
     resolution: {integrity: sha512-PBOwQ8vEIB2b7B3gCuBG7D+dqsr1fsTR4TSAjNacRVdHJrD0yzgz9grOLPSyfwJm+NUTZLyWeHoZ+1mHaUrk+g==}
     peerDependencies:
       prettier: '>=2.0'
       typescript: '>=2.9'
     dependencies:
-      prettier: 2.4.1
+      prettier: 2.5.1
       typescript: 4.4.4
     dev: false
 
-  /prettier/2.4.1:
-    resolution: {integrity: sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==}
+  /prettier/2.5.1:
+    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
