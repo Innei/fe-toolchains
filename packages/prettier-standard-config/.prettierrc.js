@@ -6,5 +6,8 @@ module.exports = {
   trailingComma: 'all',
   arrowParens: 'always',
   endOfLine: 'lf',
-  plugins: [require.resolve('prettier-plugin-organize-imports')],
+  plugins: [
+    require.resolve('@trivago/prettier-plugin-sort-imports'),
+    require.resolve('prettier-plugin-organize-imports'),
+  ],
 }
