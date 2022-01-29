@@ -4,7 +4,8 @@
   "license": "MIT",
   "author": "Innei",
   "scripts": {
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "publish": "pnpm publish --access=public -r"
   },
   "husky": {
     "hooks": {
