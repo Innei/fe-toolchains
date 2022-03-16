@@ -6,7 +6,5 @@ module.exports = {
   trailingComma: 'all',
   arrowParens: 'always',
   endOfLine: 'lf',
-  importOrderSeparation: true,
-  importOrderSortSpecifiers: true,
   plugins: [require.resolve('prettier-package-json')],
 }
