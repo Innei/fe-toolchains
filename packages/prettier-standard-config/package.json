@@ -8,9 +8,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@trivago/prettier-plugin-sort-imports": "3.1.1",
     "prettier-package-json": "2.6.0",
-    "prettier": "^2",
-    "prettier-plugin-organize-imports": "2.3.4"
+    "prettier": "^2"
   }
 }
