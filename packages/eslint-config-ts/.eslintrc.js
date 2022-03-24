@@ -58,22 +58,12 @@ module.exports = {
   rules: {
     // import
     'import/named': 'off',
-    'import/order': 'error',
+    'import/order': 'off',
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
-    'sort-imports': [
-      'error',
-      {
-        ignoreCase: false,
-        ignoreDeclarationSort: true,
-        ignoreMemberSort: false,
-        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
-        allowSeparatedGroups: false,
-      },
-    ],
-
+    'import/no-default-export': 'error',
     // es6
     'prefer-const': [
       'error',

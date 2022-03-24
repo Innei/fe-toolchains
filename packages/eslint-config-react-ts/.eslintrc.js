@@ -8,5 +8,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-no-target-blank': 'off',
     'react/display-name': 'off',
+
+    'import/no-default-export': 'off',
   },
 }
