@@ -1,11 +1,13 @@
 {
   "name": "innei-tools",
   "private": true,
+  "version": "0.8.2",
   "license": "MIT",
   "author": "Innei",
   "scripts": {
     "postinstall": "husky install",
-    "publish": "pnpm publish --access=public -r"
+    "release": "esmo scripts/release.ts",
+    "publish": "zx scripts/publish.mjs"
   },
   "husky": {
     "hooks": {
@@ -28,10 +30,17 @@
   "devDependencies": {
     "@innei-util/eslint-config-ts": "workspace:*",
     "@innei-util/prettier": "workspace:*",
+    "@types/debug": "^4.1.7",
+    "@types/prompts": "^2.0.14",
+    "@types/semver": "^7.3.9",
+    "consola": "2.15.3",
+    "esno": "^0.14.1",
     "husky": "7.0.4",
     "lint-staged": "12.3.7",
     "prettier": "2.5.1",
+    "prompts": "2.4.2",
     "rimraf": "3.0.2",
-    "typescript": "4.5.5"
+    "typescript": "4.5.5",
+    "zx": "6.0.7"
   }
 }
