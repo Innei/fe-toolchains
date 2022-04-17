@@ -40,6 +40,7 @@ async function main() {
     type: 'confirm',
     name: 'yes',
     message: `Releasing ${chalk.yellow(targetVersion)} Confirm?`,
+    initial: true,
   })
 
   if (!yes) return
