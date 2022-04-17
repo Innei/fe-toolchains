@@ -24,12 +24,12 @@
   },
   "eslintConfig": {
     "extends": [
-      "@innei-util/eslint-config-ts"
+      "@innei/eslint-config-ts"
     ]
   },
   "devDependencies": {
-    "@innei-util/eslint-config-ts": "workspace:*",
-    "@innei-util/prettier": "workspace:*",
+    "@innei/eslint-config-ts": "workspace:*",
+    "@innei/prettier": "workspace:*",
     "@types/debug": "^4.1.7",
     "@types/prompts": "^2.0.14",
     "@types/semver": "^7.3.9",

@@ -1,5 +1,5 @@
 {
-  "name": "@innei-util/eslint-config-ts",
+  "name": "@innei/eslint-config-ts",
   "version": "0.8.2",
   "main": ".eslintrc.js",
   "license": "MIT",
@@ -12,7 +12,8 @@
     "@typescript-eslint/parser": "^5.10.1",
     "eslint": "^8.8.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.4"
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-unused-imports": "2.0.0"
   },
   "devDependencies": {
     "@types/eslint": "8.4.1"

@@ -1,6 +1,7 @@
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
+  plugins: ['unused-imports'],
 
   env: {
     browser: true,
@@ -64,6 +65,7 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
     'import/no-default-export': 'error',
+
     // es6
     'prefer-const': [
       'error',
@@ -118,15 +120,21 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/ban-types': 'off',
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': [
+    '@typescript-eslint/consistent-type-imports': 'warn',
+
+    '@typescript-eslint/no-unused-vars': 'off',
+    'unused-imports/no-unused-imports': 'error',
+    'unused-imports/no-unused-vars': [
       'warn',
       {
         vars: 'all',
-        args: 'none',
-        ignoreRestSiblings: true,
+        varsIgnorePattern: '^_',
+        args: 'after-used',
         argsIgnorePattern: '^_',
       },
     ],
+
+    'no-empty': 'warn',
+    'no-fallthrough': 'error',
   },
 }

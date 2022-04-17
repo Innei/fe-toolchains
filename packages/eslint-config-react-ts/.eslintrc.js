@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ['@innei-util/eslint-config-ts', 'plugin:react-hooks/recommended'],
+  extends: ['@innei/eslint-config-ts', 'plugin:react-hooks/recommended'],
   rules: {
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',

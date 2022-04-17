@@ -1,5 +1,5 @@
 {
-  "name": "@innei-util/eslint-config-react-ts",
+  "name": "@innei/eslint-config-react-ts",
   "version": "0.8.2",
   "main": ".eslintrc.js",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@innei-util/eslint-config-ts": "latest",
+    "@innei/eslint-config-ts": "latest",
     "eslint-plugin-react-hooks": "^4.3.0"
   },
   "peerDependencies": {

@@ -1,5 +1,5 @@
 {
-  "name": "@innei-util/prettier",
+  "name": "@innei/prettier",
   "version": "0.8.2",
   "main": ".prettierrc.js",
   "license": "MIT",
