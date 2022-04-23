@@ -38,6 +38,12 @@ module.exports = {
   },
   overrides: [
     {
+      files: ['*.config.[tj]s', 'pages/**/*.[tj]sx', 'src/pages/**/*.[tj]sx'],
+      rules: {
+        'import/no-default-export': 'off',
+      },
+    },
+    {
       files: ['*.d.ts'],
       rules: {
         'import/no-duplicates': 'off',
