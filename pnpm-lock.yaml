@@ -44,7 +44,7 @@ importers:
 
   packages/eslint-config-ts:
     specifiers:
-      '@types/eslint': 8.4.1
+      '@types/eslint': 8.4.2
       '@typescript-eslint/eslint-plugin': 5.23.0
       '@typescript-eslint/parser': ^5.10.1
       eslint: ^8.8.0
@@ -59,7 +59,7 @@ importers:
       eslint-plugin-import: 2.25.4_44933aa6674788786f43cee5edb5fe04
       eslint-plugin-unused-imports: 2.0.0_4d79bfc4121de7773d94a7b7833ff120
     devDependencies:
-      '@types/eslint': 8.4.1
+      '@types/eslint': 8.4.2
 
   packages/prettier-standard-config:
     specifiers:
@@ -368,8 +368,8 @@ packages:
       '@types/ms': 0.7.31
     dev: true
 
-  /@types/eslint/8.4.1:
-    resolution: {integrity: sha512-GE44+DNEyxxh2Kc6ro/VkIj+9ma0pO0bwv9+uHSyBrikYOHr8zYcdPvnBOp1aw8s+CjRvuSx7CyWqRrNFQ59mA==}
+  /@types/eslint/8.4.2:
+    resolution: {integrity: sha512-Z1nseZON+GEnFjJc04sv4NSALGjhFwy6K0HXt7qsn5ArfAKtb63dXNJHf+1YW6IpOIYRBGUbu3GwJdj8DGnCjA==}
     dependencies:
       '@types/estree': 0.0.50
       '@types/json-schema': 7.0.9
