@@ -1,6 +1,6 @@
 {
   "name": "@innei/configs",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Tool chain of Front-End Development",
   "main": "index.js",
   "dependencies": {
