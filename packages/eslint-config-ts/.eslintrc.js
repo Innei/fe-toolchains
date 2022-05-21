@@ -38,7 +38,17 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.config.[tj]s', 'pages/**/*.[tj]sx', 'src/pages/**/*.[tj]sx'],
+      files: [
+        '*.config.[tj]s',
+        'pages/**/*.[tj]sx',
+        'src/pages/**/*.[tj]sx',
+
+        'src/views/**/*.[tj]sx',
+        'views/**/*.[tj]sx',
+
+        'src/store/**/*.[tj]s',
+        'store/**/*.[tj]s',
+      ],
       rules: {
         'import/no-default-export': 'off',
       },
