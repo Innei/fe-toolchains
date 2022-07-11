@@ -63,11 +63,11 @@ importers:
 
   packages/prettier-standard-config:
     specifiers:
-      '@trivago/prettier-plugin-sort-imports': npm:@ianvs/prettier-plugin-sort-imports@3.3.1
+      '@trivago/prettier-plugin-sort-imports': npm:@ianvs/prettier-plugin-sort-imports@3.4.2
       prettier: ^2
       prettier-package-json: 2.6.4
     dependencies:
-      '@trivago/prettier-plugin-sort-imports': /@ianvs/prettier-plugin-sort-imports/3.3.1_prettier@2.5.1
+      '@trivago/prettier-plugin-sort-imports': /@ianvs/prettier-plugin-sort-imports/3.4.2_prettier@2.5.1
       prettier: 2.5.1
       prettier-package-json: 2.6.4
 
@@ -311,8 +311,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: false
 
-  /@ianvs/prettier-plugin-sort-imports/3.3.1_prettier@2.5.1:
-    resolution: {integrity: sha512-AXdV6NJPQUu6ME2qLdm1/eu08ipVCiwfJ3p8denC4SXnbjq8OOe1+lz4Y/WF5kYsR4Cm4kV76qZPj9aTTgzrKw==}
+  /@ianvs/prettier-plugin-sort-imports/3.4.2_prettier@2.5.1:
+    resolution: {integrity: sha512-HB2BLfnm3Jee+GiGtK7f5hLcFbF54VbSAoH9UEaWpjMmrbaZCTViJeuXsycA1Adm2colaHCpqhLW5E70umh6ug==}
     peerDependencies:
       prettier: 2.x
     dependencies:
