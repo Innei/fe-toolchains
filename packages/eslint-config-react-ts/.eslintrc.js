@@ -1,6 +1,10 @@
 module.exports = {
   root: true,
-  extends: ['@innei/eslint-config-ts', 'plugin:react-hooks/recommended'],
+  extends: [
+    '@innei/eslint-config-ts',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+  ],
   rules: {
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
@@ -10,5 +14,7 @@ module.exports = {
     'react/display-name': 'off',
 
     'import/no-default-export': 'off',
+
+    'react/self-closing-comp': ['warn'],
   },
 }
