@@ -6,7 +6,7 @@
   "author": "Innei",
   "scripts": {
     "postinstall": "husky install",
-    "release": "tsx scripts/release.ts",
+    "release": "tsx scripts/release.ts && npm run publish",
     "publish": "zx scripts/publish.mjs"
   },
   "husky": {
