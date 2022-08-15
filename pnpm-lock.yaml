@@ -6,9 +6,9 @@ importers:
     specifiers:
       '@innei/eslint-config-ts': workspace:*
       '@innei/prettier': workspace:*
-      '@types/debug': ^4.1.7
-      '@types/prompts': ^2.4.0
-      '@types/semver': ^7.3.10
+      '@types/debug': 4.1.7
+      '@types/prompts': 2.4.0
+      '@types/semver': 7.3.12
       consola: 2.15.3
       husky: 8.0.1
       lint-staged: 13.0.3
@@ -22,7 +22,7 @@ importers:
       '@innei/prettier': link:packages/prettier-standard-config
       '@types/debug': 4.1.7
       '@types/prompts': 2.4.0
-      '@types/semver': 7.3.10
+      '@types/semver': 7.3.12
       consola: 2.15.3
       husky: 8.0.1
       lint-staged: 13.0.3
@@ -440,8 +440,8 @@ packages:
     resolution: {integrity: sha512-ZREFYlpUmPQJ0esjxoG1fMvB2HNaD3z+mjqdSosZvd3RalncI9NEur73P8ZJz4YQdL64CmV1w0RuqoRUlhQRBw==}
     dev: true
 
-  /@types/semver/7.3.10:
-    resolution: {integrity: sha512-zsv3fsC7S84NN6nPK06u79oWgrPVd0NvOyqgghV1haPaFcVxIrP4DLomRwGAXk0ui4HZA7mOcSFL98sMVW9viw==}
+  /@types/semver/7.3.12:
+    resolution: {integrity: sha512-WwA1MW0++RfXmCr12xeYOOC5baSC9mSb0ZqCquFzKhcoF4TvHu5MKOuXsncgZcpVFhB1pXd5hZmM0ryAoCp12A==}
     dev: true
 
   /@types/which/2.0.1:
