@@ -18,7 +18,8 @@
     "mode": "monorepo",
     "packages": [
       "packages/*"
-    ]
+    ],
+    "publish": true
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,css,scss}": [
