@@ -1,11 +1,1 @@
-{
-  "name": "@innei/configs",
-  "version": "0.9.4",
-  "description": "Tool chain of Front-End Development",
-  "main": "index.js",
-  "dependencies": {
-    "@innei/eslint-config-react-ts": "workspace:*",
-    "@innei/eslint-config-ts": "workspace:*",
-    "@innei/prettier": "workspace:*"
-  }
-}
+{"name":"@innei/configs","version":"0.9.5","description":"Tool chain of Front-End Development","main":"index.js","dependencies":{"@innei/eslint-config-react-ts":"workspace:*","@innei/eslint-config-ts":"workspace:*","@innei/prettier":"workspace:*"}}
