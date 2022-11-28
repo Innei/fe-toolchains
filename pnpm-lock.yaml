@@ -71,11 +71,11 @@ importers:
 
   packages/prettier-standard-config:
     specifiers:
-      '@trivago/prettier-plugin-sort-imports': npm:@ianvs/prettier-plugin-sort-imports@3.4.2
+      '@trivago/prettier-plugin-sort-imports': npm:@ianvs/prettier-plugin-sort-imports@3.7.1
       prettier: ^2
       prettier-package-json: 2.6.4
     dependencies:
-      '@trivago/prettier-plugin-sort-imports': /@ianvs/prettier-plugin-sort-imports/3.4.2_prettier@2.5.1
+      '@trivago/prettier-plugin-sort-imports': /@ianvs/prettier-plugin-sort-imports/3.7.1_prettier@2.5.1
       prettier: 2.5.1
       prettier-package-json: 2.6.4
 
@@ -319,10 +319,14 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: false
 
-  /@ianvs/prettier-plugin-sort-imports/3.4.2_prettier@2.5.1:
-    resolution: {integrity: sha512-HB2BLfnm3Jee+GiGtK7f5hLcFbF54VbSAoH9UEaWpjMmrbaZCTViJeuXsycA1Adm2colaHCpqhLW5E70umh6ug==}
+  /@ianvs/prettier-plugin-sort-imports/3.7.1_prettier@2.5.1:
+    resolution: {integrity: sha512-XDnBUUruJY9KgNd7T2ZHnVPWo5B9NzVDCLEMm7HjXTA3rTtMg5Q46gYRjLvampDXSmN8+icu54aRE3IIT8U+1w==}
     peerDependencies:
+      '@vue/compiler-sfc': '>=3.0.0'
       prettier: 2.x
+    peerDependenciesMeta:
+      '@vue/compiler-sfc':
+        optional: true
     dependencies:
       '@babel/core': 7.17.9
       '@babel/generator': 7.17.9
@@ -330,7 +334,8 @@ packages:
       '@babel/traverse': 7.17.9
       '@babel/types': 7.17.0
       javascript-natural-sort: 0.7.1
-      lodash: 4.17.21
+      lodash.clone: 4.5.0
+      lodash.isequal: 4.5.0
       prettier: 2.5.1
     transitivePeerDependencies:
       - supports-color
@@ -1876,6 +1881,14 @@ packages:
     dependencies:
       p-locate: 2.0.0
       path-exists: 3.0.0
+    dev: false
+
+  /lodash.clone/4.5.0:
+    resolution: {integrity: sha512-GhrVeweiTD6uTmmn5hV/lzgCQhccwReIVRLHp7LT4SopOjqEZ5BbX8b5WWEtAKasjmy8hR7ZPwsYlxRCku5odg==}
+    dev: false
+
+  /lodash.isequal/4.5.0:
+    resolution: {integrity: sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==}
     dev: false
 
   /lodash.merge/4.6.2:
