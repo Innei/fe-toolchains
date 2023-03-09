@@ -73,11 +73,11 @@ importers:
     specifiers:
       '@trivago/prettier-plugin-sort-imports': npm:@ianvs/prettier-plugin-sort-imports@3.7.1
       prettier: ^2.8.0
-      prettier-package-json: 2.7.0
+      prettier-package-json: 2.8.0
     dependencies:
       '@trivago/prettier-plugin-sort-imports': /@ianvs/prettier-plugin-sort-imports/3.7.1_prettier@2.8.0
       prettier: 2.8.0
-      prettier-package-json: 2.7.0
+      prettier-package-json: 2.8.0
 
   packages/tools:
     specifiers:
@@ -298,7 +298,7 @@ packages:
       ignore: 4.0.6
       import-fresh: 3.3.0
       js-yaml: 4.1.0
-      minimatch: 3.0.4
+      minimatch: 3.1.2
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
@@ -338,7 +338,7 @@ packages:
     dependencies:
       '@humanwhocodes/object-schema': 1.2.1
       debug: 4.3.4
-      minimatch: 3.0.4
+      minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -1578,7 +1578,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.0.4
+      minimatch: 3.1.2
       once: 1.4.0
       path-is-absolute: 1.0.1
 
@@ -2048,12 +2048,12 @@ packages:
     resolution: {integrity: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==}
     dependencies:
       brace-expansion: 1.1.11
+    dev: false
 
   /minimatch/3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
     dependencies:
       brace-expansion: 1.1.11
-    dev: false
 
   /minimist/1.2.7:
     resolution: {integrity: sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==}
@@ -2321,8 +2321,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: false
 
-  /prettier-package-json/2.7.0:
-    resolution: {integrity: sha512-51I3/fYpBTLDXQDQK7+dfNlJzh5wdKhK8QteSZTZMppQd6aGpr1wqpwlKKZF1KdWA+91rwfpHUBrKwd2PXdXag==}
+  /prettier-package-json/2.8.0:
+    resolution: {integrity: sha512-WxtodH/wWavfw3MR7yK/GrS4pASEQ+iSTkdtSxPJWvqzG55ir5nvbLt9rw5AOiEcqqPCRM92WCtR1rk3TG3JSQ==}
     hasBin: true
     dependencies:
       '@types/parse-author': 2.0.1
