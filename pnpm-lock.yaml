@@ -46,7 +46,7 @@ importers:
 
   packages/eslint-config-ts:
     specifiers:
-      '@types/eslint': 8.21.2
+      '@types/eslint': 8.21.3
       '@typescript-eslint/eslint-plugin': 5.55.0
       '@typescript-eslint/parser': ^5.45.0
       eslint: ^8.29.0
@@ -63,7 +63,7 @@ importers:
       eslint-plugin-unused-imports: 2.0.0_fycs4nu3rdhhj6kwum7dmy5oni
       typescript: 4.7.4
     devDependencies:
-      '@types/eslint': 8.21.2
+      '@types/eslint': 8.21.3
 
   packages/eslint-config-vue-ts:
     specifiers:
@@ -426,8 +426,8 @@ packages:
       fastq: 1.13.0
     dev: false
 
-  /@types/eslint/8.21.2:
-    resolution: {integrity: sha512-EMpxUyystd3uZVByZap1DACsMXvb82ypQnGn89e1Y0a+LYu3JJscUd/gqhRsVFDkaD2MIiWo0MT8EfXr3DGRKw==}
+  /@types/eslint/8.21.3:
+    resolution: {integrity: sha512-fa7GkppZVEByMWGbTtE5MbmXWJTVbrjjaS8K6uQj+XtuuUv1fsuPAxhygfqLmsb/Ufb3CV8deFCpiMfAgi00Sw==}
     dependencies:
       '@types/estree': 0.0.50
       '@types/json-schema': 7.0.9
