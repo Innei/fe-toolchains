@@ -9,7 +9,7 @@ importers:
       husky: 8.0.3
       lint-staged: 13.1.4
       prettier: 2.8.6
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       typescript: 4.9.5
     devDependencies:
       '@innei/eslint-config-ts': link:packages/eslint-config-ts
@@ -17,7 +17,7 @@ importers:
       husky: 8.0.3
       lint-staged: 13.1.4
       prettier: 2.8.6
-      rimraf: 4.4.0
+      rimraf: 4.4.1
       typescript: 4.9.5
 
   packages/configs:
@@ -2513,8 +2513,8 @@ packages:
       glob: 7.2.0
     dev: false
 
-  /rimraf/4.4.0:
-    resolution: {integrity: sha512-X36S+qpCUR0HjXlkDe4NAOhS//aHH0Z+h8Ckf2auGJk3PTnx5rLmrHkwNdbVQuCSUhOyFrlRvFEllZOYE+yZGQ==}
+  /rimraf/4.4.1:
+    resolution: {integrity: sha512-Gk8NlF062+T9CqNGn6h4tls3k6T1+/nXdOcSZVikNVtlRdYpA7wRJJMoXmuvOnLW844rPjdQ7JgXCYM6PPC/og==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
