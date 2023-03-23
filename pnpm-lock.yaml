@@ -70,13 +70,13 @@ importers:
       '@innei/eslint-config-ts': latest
       eslint: '*'
       eslint-plugin-react: ^7.31.11
-      eslint-plugin-vue: 9.9.0
+      eslint-plugin-vue: 9.10.0
       typescript: '*'
     dependencies:
       '@innei/eslint-config-ts': link:../eslint-config-ts
       eslint: 8.8.0
       eslint-plugin-react: 7.31.11_eslint@8.8.0
-      eslint-plugin-vue: 9.9.0_eslint@8.8.0
+      eslint-plugin-vue: 9.10.0_eslint@8.8.0
       typescript: 4.7.4
 
   packages/prettier-standard-config:
@@ -287,13 +287,23 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@eslint-community/eslint-utils/4.2.0_eslint@8.29.0:
-    resolution: {integrity: sha512-gB8T4H4DEfX2IV9zGDJPOBgP1e/DbfCPDTtEqUMckpvzS1OYtva8JdFYBqMwYk7xAQ429WGF/UPqn8uQ//h2vQ==}
+  /@eslint-community/eslint-utils/4.3.0_eslint@8.29.0:
+    resolution: {integrity: sha512-v3oplH6FYCULtFuCeqyuTd9D2WKO937Dxdq+GmHOLL72TTRriLxz2VLlNfkZRsvj6PKnOPAtuT6dwrs/pA5DvA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
     dependencies:
       eslint: 8.29.0
+      eslint-visitor-keys: 3.3.0
+    dev: false
+
+  /@eslint-community/eslint-utils/4.3.0_eslint@8.8.0:
+    resolution: {integrity: sha512-v3oplH6FYCULtFuCeqyuTd9D2WKO937Dxdq+GmHOLL72TTRriLxz2VLlNfkZRsvj6PKnOPAtuT6dwrs/pA5DvA==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
+    dependencies:
+      eslint: 8.8.0
       eslint-visitor-keys: 3.3.0
     dev: false
 
@@ -598,7 +608,7 @@ packages:
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      '@eslint-community/eslint-utils': 4.2.0_eslint@8.29.0
+      '@eslint-community/eslint-utils': 4.3.0_eslint@8.29.0
       '@types/json-schema': 7.0.9
       '@types/semver': 7.3.12
       '@typescript-eslint/scope-manager': 5.56.0
@@ -1235,14 +1245,14 @@ packages:
       eslint-rule-composer: 0.3.0
     dev: false
 
-  /eslint-plugin-vue/9.9.0_eslint@8.8.0:
-    resolution: {integrity: sha512-YbubS7eK0J7DCf0U2LxvVP7LMfs6rC6UltihIgval3azO3gyDwEGVgsCMe1TmDiEkl6GdMKfRpaME6QxIYtzDQ==}
+  /eslint-plugin-vue/9.10.0_eslint@8.8.0:
+    resolution: {integrity: sha512-2MgP31OBf8YilUvtakdVMc8xVbcMp7z7/iQj8LHVpXrSXHPXSJRUIGSPFI6b6pyCx/buKaFJ45ycqfHvQRiW2g==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
     dependencies:
+      '@eslint-community/eslint-utils': 4.3.0_eslint@8.8.0
       eslint: 8.8.0
-      eslint-utils: 3.0.0_eslint@8.8.0
       natural-compare: 1.4.0
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.10
