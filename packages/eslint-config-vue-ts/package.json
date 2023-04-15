@@ -11,7 +11,7 @@
     "@innei/eslint-config-ts": "latest",
     "eslint": "*",
     "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-vue": "9.10.0",
+    "eslint-plugin-vue": "9.11.0",
     "typescript": "*"
   },
   "peerDependencies": {
