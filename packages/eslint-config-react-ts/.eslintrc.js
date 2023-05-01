@@ -15,6 +15,10 @@ module.exports = {
 
     'import/no-default-export': 'off',
 
-    'react/self-closing-comp': ['warn'],
+    'react/self-closing-comp': 'warn',
+    'react/jsx-curly-brace-presence': [
+      'error',
+      { props: 'never', children: 'never' },
+    ],
   },
 }
