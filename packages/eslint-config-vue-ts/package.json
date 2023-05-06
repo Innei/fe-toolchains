@@ -1,6 +1,6 @@
 {
   "name": "@innei/eslint-config-vue-ts",
-  "version": "0.9.9",
+  "version": "0.9.10",
   "main": ".eslintrc.js",
   "license": "MIT",
   "publishConfig": {
