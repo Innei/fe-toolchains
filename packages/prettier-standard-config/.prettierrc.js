@@ -9,6 +9,7 @@ module.exports = {
   plugins: [
     require.resolve('prettier-package-json'),
     require.resolve('@trivago/prettier-plugin-sort-imports'),
+    require.resolve('prettier-plugin-tailwindcss'),
   ],
 
   importOrderParserPlugins: [
