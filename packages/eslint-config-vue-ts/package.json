@@ -10,7 +10,7 @@
   "dependencies": {
     "@innei/eslint-config-ts": "latest",
     "eslint": "*",
-    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-vue": "9.13.0",
     "typescript": "*"
   },

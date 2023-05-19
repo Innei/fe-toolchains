@@ -8,8 +8,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@trivago/prettier-plugin-sort-imports": "4.1.1",
-    "prettier": "^2.8.0",
+    "@ianvs/prettier-plugin-sort-imports": "4.0.0-alpha.7",
+    "prettier": "^2.8.8",
     "prettier-package-json": "2.8.0",
     "prettier-plugin-tailwindcss": "^0.3.0"
   }
