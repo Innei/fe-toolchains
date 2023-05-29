@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "@innei/eslint-config-ts": "latest",
-    "eslint": "*",
+    "eslint": "^8.41.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-vue": "9.14.1",
-    "typescript": "*"
+    "typescript": "^5.0.4"
   },
   "peerDependencies": {
     "typescript": ">=4"

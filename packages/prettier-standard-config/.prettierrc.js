@@ -12,13 +12,22 @@ module.exports = {
     require.resolve('prettier-plugin-tailwindcss'),
   ],
 
-  importOrderParserPlugins: [
-    'classProperties',
-    'decorators-legacy',
-    'typescript',
-    'jsx',
+  importOrder: [
+    'react',
+    '<THIRD_PARTY_MODULES>',
+    '<TYPES>',
+    '<TYPES>^[.]',
+    '',
+
+    '^@(.*)/(.*)$',
+    '',
+    '^~/(.*)$',
+    '',
+    '^@/(.*)$',
+    '',
+    '^[./]',
+    '',
+    '^(?!.*[.]css$)[./].*$',
+    '.css$',
   ],
-  importOrder: ['^@(.*)/(.*)$', '^~/(.*)$', '^@/(.*)$', '^[./]'],
-  importOrderSeparation: true,
-  importOrderSortSpecifiers: true,
 }
