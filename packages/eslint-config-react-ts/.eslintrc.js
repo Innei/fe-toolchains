@@ -13,6 +13,9 @@ module.exports = {
     'react/jsx-no-target-blank': 'warn',
     'react/display-name': 'warn',
 
+    // For Component Name
+    'prefer-arrow-callback': 'off',
+
     'import/no-default-export': 'off',
 
     'react/self-closing-comp': 'warn',
