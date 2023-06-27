@@ -10,8 +10,8 @@ module.exports = {
     'react/prop-types': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'react/jsx-no-target-blank': 'off',
-    'react/display-name': 'off',
+    'react/jsx-no-target-blank': 'warn',
+    'react/display-name': 'warn',
 
     'import/no-default-export': 'off',
 
