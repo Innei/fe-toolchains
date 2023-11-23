@@ -1,16 +1,20 @@
 {
   "name": "@innei/prettier",
   "version": "0.11.1",
-  "main": ".prettierrc.js",
+  "main": ".prettierrc.mjs",
+  "exports": {
+    ".": "./.prettierrc.mjs",
+    "./base": "./base.mjs"
+  },
   "license": "MIT",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "4.0.2",
-    "prettier": "^3.0.0",
+    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+    "prettier": "^3.1.0",
     "prettier-package-json": "2.8.0",
-    "prettier-plugin-tailwindcss": "^0.4.0"
+    "prettier-plugin-tailwindcss": "^0.5.7"
   }
 }

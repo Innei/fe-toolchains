@@ -1,4 +1,8 @@
-module.exports = {
+import { createRequire } from 'node:module'
+
+const require = createRequire(import.meta.url)
+
+export const baseConfig = {
   tabWidth: 2,
   printWidth: 80,
   semi: false,
@@ -6,11 +10,7 @@ module.exports = {
   trailingComma: 'all',
   arrowParens: 'always',
   endOfLine: 'lf',
-  plugins: [
-    require.resolve('prettier-package-json'),
-    require.resolve('@ianvs/prettier-plugin-sort-imports'),
-    require.resolve('prettier-plugin-tailwindcss'),
-  ],
+  plugins: [require.resolve('prettier-package-json')],
 
   importOrder: [
     'react',
