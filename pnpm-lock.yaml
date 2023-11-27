@@ -30,18 +30,6 @@ importers:
         specifier: 5.3.2
         version: 5.3.2
 
-  packages/configs:
-    dependencies:
-      '@innei/eslint-config-react-ts':
-        specifier: workspace:*
-        version: link:../eslint-config-react-ts
-      '@innei/eslint-config-ts':
-        specifier: workspace:*
-        version: link:../eslint-config-ts
-      '@innei/prettier':
-        specifier: workspace:*
-        version: link:../prettier-standard-config
-
   packages/eslint-config-react-ts:
     dependencies:
       '@innei/eslint-config-ts':
@@ -117,6 +105,12 @@ importers:
       prettier-package-json:
         specifier: 2.8.0
         version: 2.8.0
+      prettier-plugin-autocorrect:
+        specifier: 0.4.1
+        version: 0.4.1(prettier@3.1.0)
+      prettier-plugin-sh:
+        specifier: 0.13.1
+        version: 0.13.1(prettier@3.1.0)
       prettier-plugin-tailwindcss:
         specifier: ^0.5.7
         version: 0.5.7(@ianvs/prettier-plugin-sort-imports@4.1.1)(prettier@3.1.0)
@@ -786,6 +780,63 @@ packages:
   /author-regex@1.0.0:
     resolution: {integrity: sha512-KbWgR8wOYRAPekEmMXrYYdc7BRyhn2Ftk7KWfMUnQ43hFdojWEFRxhhRUm3/OFEdPa1r0KAvTTg9YQK57xTe0g==}
     engines: {node: '>=0.8'}
+    dev: false
+
+  /autocorrect-node-darwin-arm64@2.8.4:
+    resolution: {integrity: sha512-eJFsrZZZUJVPTbdA6hAmVUbTBaznIfkIwstcfn02CXLVKq15j00CXkNytQIdmKpBraTmxjub9kQvYY0Nz2h4DQ==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /autocorrect-node-darwin-x64@2.8.4:
+    resolution: {integrity: sha512-3QheEz2VgZnJcId7zgzbyC88CSmyHg+F93Bw5wsf7dTSwhVdnXeIIlYtXzFabp+c2aCi9lRAQkHFC9Om1CYkuQ==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /autocorrect-node-linux-x64-gnu@2.8.4:
+    resolution: {integrity: sha512-0nR3VnxpfU6HINQiZjC2cz1YVxOTCn529VPqHsWz2H03BPbS9YskGzbRpujnLvwLCyyDlYXJJneFYD1G+9VPaA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /autocorrect-node-linux-x64-musl@2.8.4:
+    resolution: {integrity: sha512-2LtKtaN6YWUnDtBpo2w5c7FSulozbt2kv9UigrckCX8M/AOVw0MA6uB5snglmKMx1f7fYC06/V4A7Ny1weUOGA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /autocorrect-node-win32-x64-msvc@2.8.4:
+    resolution: {integrity: sha512-ExcoBqRjEVnK9n2AVy/dmkiUSnvs5P/VdzI909bCjej1XgOpXonsZ4vGPEPicRfiHb8dc7whl6sh5P/TunDB7A==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /autocorrect-node@2.8.4:
+    resolution: {integrity: sha512-65DUHJhIUwAlEtyDjYxE94sTT2anQtGXrPB7W9fdrk/Bm7ro4b7mjxQAP14lQlISXXtbNEJO1WABMqNpNbTjxQ==}
+    engines: {node: '>= 10'}
+    hasBin: true
+    optionalDependencies:
+      autocorrect-node-darwin-arm64: 2.8.4
+      autocorrect-node-darwin-x64: 2.8.4
+      autocorrect-node-linux-x64-gnu: 2.8.4
+      autocorrect-node-linux-x64-musl: 2.8.4
+      autocorrect-node-win32-x64-msvc: 2.8.4
     dev: false
 
   /available-typed-arrays@1.0.5:
@@ -2139,6 +2190,10 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: false
 
+  /mvdan-sh@0.10.1:
+    resolution: {integrity: sha512-kMbrH0EObaKmK3nVRKUIIya1dpASHIEusM13S4V1ViHFuxuNxCo+arxoa6j/dbV22YBGjl7UKJm9QQKJ2Crzhg==}
+    dev: false
+
   /natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: false
@@ -2375,6 +2430,27 @@ packages:
       sort-order: 1.1.2
     dev: false
 
+  /prettier-plugin-autocorrect@0.4.1(prettier@3.1.0):
+    resolution: {integrity: sha512-smL0VQEG+T4tIuOCCgxCTVeBpM3ybmmxIevitU2ktPyY0MtW1StyNJxt36i0jz19er+AsaklBFwCmj+ZUph+0w==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    peerDependencies:
+      prettier: ^3.0.0
+    dependencies:
+      autocorrect-node: 2.8.4
+      prettier: 3.1.0
+    dev: false
+
+  /prettier-plugin-sh@0.13.1(prettier@3.1.0):
+    resolution: {integrity: sha512-ytMcl1qK4s4BOFGvsc9b0+k9dYECal7U29bL/ke08FEUsF/JLN0j6Peo0wUkFDG4y2UHLMhvpyd6Sd3zDXe/eg==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      prettier: ^3.0.0
+    dependencies:
+      mvdan-sh: 0.10.1
+      prettier: 3.1.0
+      sh-syntax: 0.4.1
+    dev: false
+
   /prettier-plugin-tailwindcss@0.5.7(@ianvs/prettier-plugin-sort-imports@4.1.1)(prettier@3.1.0):
     resolution: {integrity: sha512-4v6uESAgwCni6YF6DwJlRaDjg9Z+al5zM4JfngcazMy4WEf/XkPS5TEQjbD+DZ5iNuG6RrKQLa/HuX2SYzC3kQ==}
     engines: {node: '>=14.21.3'}
@@ -2589,6 +2665,13 @@ packages:
       has-property-descriptors: 1.0.1
     dev: false
 
+  /sh-syntax@0.4.1:
+    resolution: {integrity: sha512-MW/ZsCYTu11EIYYTSZcfAgMFszAodCmQVB27XssHoIN6L4EG0KSA3h32x8whaSOKuYBX5wz9EybfnPBUFQMCKA==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      tslib: 2.6.2
+    dev: false
+
   /shebang-command@2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
     engines: {node: '>=8'}
@@ -2777,6 +2860,10 @@ packages:
       json5: 1.0.2
       minimist: 1.2.8
       strip-bom: 3.0.0
+    dev: false
+
+  /tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: false
 
   /type-check@0.4.0:

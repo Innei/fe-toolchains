@@ -10,7 +10,11 @@ export const baseConfig = {
   trailingComma: 'all',
   arrowParens: 'always',
   endOfLine: 'lf',
-  plugins: [require.resolve('prettier-package-json')],
+  plugins: [
+    require.resolve('prettier-package-json'),
+    require.resolve('prettier-plugin-autocorrect'),
+    require.resolve('prettier-plugin-sh'),
+  ],
 
   importOrder: [
     'react',
