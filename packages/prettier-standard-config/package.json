@@ -1,6 +1,6 @@
 {
   "name": "@innei/prettier",
-  "version": "0.12.0",
+  "version": "0.12.1",
   "main": ".prettierrc.mjs",
   "exports": {
     ".": "./.prettierrc.mjs",
