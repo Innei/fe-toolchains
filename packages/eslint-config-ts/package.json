@@ -17,7 +17,7 @@
     "typescript": "^5.4.2"
   },
   "devDependencies": {
-    "@types/eslint": "8.56.5"
+    "@types/eslint": "8.56.6"
   },
   "peerDependencies": {
     "typescript": ">=4"
