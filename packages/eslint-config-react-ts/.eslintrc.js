@@ -4,7 +4,15 @@ module.exports = {
     '@innei/eslint-config-ts',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
+    'plugin:tailwindcss/recommended',
   ],
+  plugins: ['tailwindcss'],
+  settings: {
+    tailwindcss: {
+      callees: ['clsx', 'clsxm'],
+      removeDuplicates: true,
+    },
+  },
   rules: {
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
@@ -19,6 +27,8 @@ module.exports = {
     'import/no-default-export': 'off',
 
     'react/self-closing-comp': 'warn',
+    'tailwindcss/no-unnecessary-arbitrary-value': 'error',
+    'tailwindcss/no-custom-classname': 'warn',
     'react/jsx-curly-brace-presence': [
       'error',
       { props: 'never', children: 'never' },
