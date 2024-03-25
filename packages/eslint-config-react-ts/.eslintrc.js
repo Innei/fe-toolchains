@@ -29,6 +29,8 @@ module.exports = {
     'react/self-closing-comp': 'warn',
     'tailwindcss/no-unnecessary-arbitrary-value': 'error',
     'tailwindcss/no-custom-classname': 0,
+    'tailwindcss/enforces-shorthand': 'error',
+    'tailwindcss/migration-from-tailwind-2': 'error',
     'react/jsx-curly-brace-presence': [
       'error',
       { props: 'never', children: 'never' },
