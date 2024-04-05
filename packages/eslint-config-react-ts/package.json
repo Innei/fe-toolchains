@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@innei/eslint-config-ts": "workspace:*",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "@typescript-eslint/eslint-plugin": "7.5.0",
     "@typescript-eslint/parser": "^7.1.1",
     "eslint-config-prettier": "^9.1.0",
