@@ -8,11 +8,11 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@innei/eslint-config-ts": "latest",
+    "@innei/eslint-config-ts": "0.13.2",
     "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.34.0",
+    "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-vue": "9.27.0",
-    "typescript": "^5.4.2"
+    "typescript": "^5.5.3"
   },
   "peerDependencies": {
     "typescript": ">=4"
