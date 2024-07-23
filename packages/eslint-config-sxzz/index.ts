@@ -4,7 +4,7 @@ import { Linter } from 'eslint'
 
 import { sxzz } from '@sxzz/eslint-config'
 
-export interface InneiESlineConfig {
+export interface InneiESlintConfig {
   react: {
     path: Array<string | string[]>
   }
@@ -18,7 +18,7 @@ export interface InneiESlineConfig {
 }
 export function innei(
   config: Linter.FlatConfig | Linter.FlatConfig[],
-  options: Partial<InneiESlineConfig> = {},
+  options: Partial<InneiESlintConfig> = {},
 ) {
   const configs = Array.isArray(config) ? config : [config]
   return sxzz(
