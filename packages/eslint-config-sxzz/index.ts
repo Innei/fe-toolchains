@@ -13,8 +13,6 @@ export interface InneiESlintConfig {
   }
 
   path: Array<string | string[]>
-
-  ignores: string[]
 }
 export function innei(
   config: Linter.FlatConfig | Linter.FlatConfig[],
@@ -57,9 +55,7 @@ export function innei(
             },
           }
         : {},
-      {
-        ignores: options.ignores,
-      },
+
       {
         files: options.path || ['**/*.{ts,tsx,js,jsx}'],
 
