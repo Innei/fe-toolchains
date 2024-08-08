@@ -1,3 +1,4 @@
+// @ts-check
 import { createRequire } from 'node:module'
 
 import { baseConfig } from './base.mjs'
@@ -13,8 +14,28 @@ export const factory = (options = {}) => {
 
   const plugins = [...baseConfig.plugins]
 
+  const additionalProps = {}
+
   if (importSort) {
     plugins.push(require.resolve('@ianvs/prettier-plugin-sort-imports'))
+    additionalProps['importOrder'] = [
+      'react',
+      '<THIRD_PARTY_MODULES>',
+      '<TYPES>',
+      '<TYPES>^[.]',
+      '',
+
+      '^@(.*)/(.*)$',
+      '',
+      '^~/(.*)$',
+      '',
+      '^@/(.*)$',
+      '',
+      '^[./]',
+      '',
+      '^(?!.*[.]css$)[./].*$',
+      '.css$',
+    ]
   }
 
   if (tailwindcss) {
@@ -24,6 +45,7 @@ export const factory = (options = {}) => {
   return {
     ...baseConfig,
     plugins,
+    ...additionalProps,
   }
 }
 export default factory({

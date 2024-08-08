@@ -15,23 +15,4 @@ export const baseConfig = {
     require.resolve('prettier-plugin-autocorrect'),
     require.resolve('prettier-plugin-sh'),
   ],
-
-  importOrder: [
-    'react',
-    '<THIRD_PARTY_MODULES>',
-    '<TYPES>',
-    '<TYPES>^[.]',
-    '',
-
-    '^@(.*)/(.*)$',
-    '',
-    '^~/(.*)$',
-    '',
-    '^@/(.*)$',
-    '',
-    '^[./]',
-    '',
-    '^(?!.*[.]css$)[./].*$',
-    '.css$',
-  ],
 }
