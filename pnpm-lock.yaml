@@ -27,8 +27,8 @@ importers:
         specifier: 6.0.1
         version: 6.0.1
       typescript:
-        specifier: 5.5.4
-        version: 5.5.4
+        specifier: 5.7.2
+        version: 5.7.2
 
   packages/eslint-config-react-ts:
     dependencies:
@@ -3116,6 +3116,11 @@ packages:
 
   typescript@5.5.4:
     resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -6720,6 +6725,8 @@ snapshots:
       - supports-color
 
   typescript@5.5.4: {}
+
+  typescript@5.7.2: {}
 
   ufo@1.5.4: {}
 
