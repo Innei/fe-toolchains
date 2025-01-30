@@ -35,7 +35,7 @@
   "devDependencies": {
     "@innei/eslint-config-ts": "workspace:*",
     "@innei/prettier": "workspace:*",
-    "husky": "9.0.11",
+    "husky": "9.1.7",
     "lint-staged": "15.2.11",
     "prettier": "3.4.2",
     "rimraf": "6.0.1",
