@@ -27,8 +27,8 @@ importers:
         specifier: 6.0.1
         version: 6.0.1
       typescript:
-        specifier: 5.5.4
-        version: 5.5.4
+        specifier: 5.8.3
+        version: 5.8.3
 
   packages/eslint-config-react-ts:
     dependencies:
@@ -459,6 +459,7 @@ packages:
 
   '@eslint-react/tools@1.5.30':
     resolution: {integrity: sha512-pyy4dNgnTJUITBM9+5nr1cQwiamYZ+irpMtgQywLVLjl90JVJzcpG1q8OptjUGizG/qTsBOJaor9/VeqfZwWQA==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   '@eslint-react/types@1.5.30':
     resolution: {integrity: sha512-1kUYeBEnRCJnuHlOWNMw5haQ+Fa5pyudXxy6GoTMAghZuRHP9gxbzwBU8+FkoXNXFitZt8TPjShn0p8nWAVuzw==}
@@ -3276,6 +3277,11 @@ packages:
 
   typescript@5.5.4:
     resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -7192,6 +7198,8 @@ snapshots:
       - supports-color
 
   typescript@5.5.4: {}
+
+  typescript@5.8.3: {}
 
   ufo@1.5.4: {}
 
