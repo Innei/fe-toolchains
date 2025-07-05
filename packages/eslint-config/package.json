@@ -23,7 +23,7 @@
     "build": "tsup"
   },
   "dependencies": {
-    "eslint": "9.29.0",
+    "eslint": "9.30.1",
     "eslint-config-hyoban": "4.0.8",
     "typescript": "^5.8.3"
   },
