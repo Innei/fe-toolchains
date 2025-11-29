@@ -21,8 +21,8 @@ importers:
         specifier: 16.1.6
         version: 16.1.6
       prettier:
-        specifier: 3.7.1
-        version: 3.7.1
+        specifier: 3.7.2
+        version: 3.7.2
       rimraf:
         specifier: 6.0.1
         version: 6.0.1
@@ -2151,6 +2151,11 @@ packages:
 
   prettier@3.7.1:
     resolution: {integrity: sha512-RWKXE4qB3u5Z6yz7omJkjWwmTfLdcbv44jUVHC5NpfXwFGzvpQM798FGv/6WNK879tc+Cn0AAyherCl1KjbyZQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+
+  prettier@3.7.2:
+    resolution: {integrity: sha512-n3HV2J6QhItCXndGa3oMWvWFAgN1ibnS7R9mt6iokScBOC0Ul9/iZORmU2IWUMcyAQaMPjTlY3uT34TqocUxMA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -4688,6 +4693,8 @@ snapshots:
       '@ianvs/prettier-plugin-sort-imports': 4.4.2(prettier@3.7.1)
 
   prettier@3.7.1: {}
+
+  prettier@3.7.2: {}
 
   punycode@2.3.1: {}
 
