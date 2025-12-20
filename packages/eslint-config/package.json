@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "eslint": "9.39.2",
-    "eslint-config-hyoban": "4.0.10",
+    "eslint-config-hyoban": "4.1.0",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
