@@ -17,6 +17,6 @@
     "prettier-package-json": "2.8.0",
     "prettier-plugin-autocorrect": "0.4.3",
     "prettier-plugin-sh": "0.18.0",
-    "prettier-plugin-tailwindcss": "^0.6.13"
+    "prettier-plugin-tailwindcss": "^0.7.0"
   }
 }
