@@ -31,7 +31,7 @@
     "@innei/eslint-config": "workspace:*",
     "@innei/prettier": "workspace:*",
     "husky": "9.1.7",
-    "lint-staged": "16.1.6",
+    "lint-staged": "16.2.7",
     "prettier": "3.8.1",
     "rimraf": "6.0.1",
     "typescript": "5.8.3"
